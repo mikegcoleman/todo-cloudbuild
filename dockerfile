@@ -16,7 +16,7 @@ FROM gcr.io/mikegcoleman-m4a-cicd/todo-non-runnable-base:3-6-2021--4-51-49 as so
 # RUN yum update
 # RUN wget http://github.com
 
-COPY . /src
+COPY . /home/mikegcoleman/todo/
 
 
 COPY --from=migrate-for-anthos-runtime / /
