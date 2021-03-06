@@ -4,7 +4,7 @@
 FROM anthos-migrate.gcr.io/v2k-run-embedded:v1.6.2 as migrate-for-anthos-runtime
 
 # Image containing data captured from the source VM
-FROM gcr.io/mikegcoleman-m4a-cicd/todo-non-runnable-base:3-6-2021--2-25-41 as source-content
+FROM gcr.io/mikegcoleman-m4a-cicd/todo-non-runnable-base:3-6-2021--4-51-49 as source-content
 
 # If you want to update parts of the image, add your commands here.
 # For example:
