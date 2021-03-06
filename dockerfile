@@ -17,7 +17,6 @@ FROM gcr.io/mikegcoleman-m4a-cicd/todo-non-runnable-base:3-6-2021--2-25-41 as so
 # RUN wget http://github.com
 
 COPY . /src
-RUN npm install
 
 
 COPY --from=migrate-for-anthos-runtime / /
