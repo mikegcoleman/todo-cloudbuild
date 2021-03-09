@@ -18,7 +18,6 @@ FROM gcr.io/mikegcoleman-m4a-cicd/todo-non-runnable-base:3-6-2021--4-51-49 as so
 
 WORKDIR  /home/mikegcoleman/todo
 COPY ./ ./
-RUN npm install
 
 
 COPY --from=migrate-for-anthos-runtime / /
