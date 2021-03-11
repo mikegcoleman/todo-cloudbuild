@@ -16,7 +16,8 @@ FROM gcr.io/mikegcoleman-m4a-cicd/todo-non-runnable-base:3-10-2021--19-23-52 as 
 # RUN yum update
 # RUN wget http://github.com
 
-WORKDIR  /home/mikegcoleman/todo
+WORKDIR  /usr/src/todo
+
 COPY ./ ./
 
 
